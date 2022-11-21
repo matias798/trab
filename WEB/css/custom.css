@@ -1,0 +1,17 @@
+body{
+    font-family: 'Anton', sans-serif;
+}
+
+.conteiner-fluid-custom{
+    height: auto;
+
+}
+
+.section-custom-1{
+        height: 500px;
+        background-color: green;
+    }
+
+.hero {
+    background-color: brown;
+    }
