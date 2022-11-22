@@ -1,0 +1,51 @@
+body {
+  font-family: "Anton", sans-serif;
+}
+
+.conteiner-fluid-custom {
+  height: auto;
+}
+
+.section-custom-1 {
+  height: 500px;
+  background-color: green;
+}
+
+.hero {
+  background-color: brown;
+}
+
+/* Fondos */
+.Fondo {
+  background-image: url("./../img/contacto.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.actividadesFondo {
+  background-image: url("./../img/fondo_actividades.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/* banner */
+.tamañoBanner{
+  height: 100vh;
+  width: 100vw;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+}
+.contenedorIcono {
+  background-color: lightgray;
+  color: black !important;
+  height: 3em;
+  text-decoration: none;
+  width: 3em;
+}
+
+#intro2 {
+  font-size: 1.5em;
+}
