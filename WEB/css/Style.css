@@ -29,7 +29,7 @@ body {
 
 /* banner */
 .tamañoBanner {
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -56,11 +56,15 @@ body {
 }
 
 @media (min-width: 801px) {
+
+  .tamañoBanner {
+    height: 90vh;
+  }
   .imageContainer {
     margin: 1em;
   }
   .descripcionQuieneso {
     text-align: start!important;
-    max-width: 40%!important;
+    max-width: 0%!important;
   }
 }
