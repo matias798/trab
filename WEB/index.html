@@ -5,9 +5,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  <meta name="description"
+    content="Power of love esun gimnasio con más de 25 años de experiencia en el mercado. Originada en el barrio de Palermo, Buenos Aires">
+  <meta name="keywords" content="gimnasio, Gym, Fitness">
   <meta name="author" content="Cecilia Prati">
-  <meta name="tags" content="">
 
   <!-- favicon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,7 +38,7 @@
 
 <body>
   <!-- barra navegacion -->
-  <div class="conteiner-flex">
+  <div class="conteiner-flex ">
     <nav class="navbar navbar-light bg-light navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
@@ -71,8 +72,8 @@
     </nav>
   </div>
 
-  <!-- imagen principal -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <!-- imagen principal Pc -->
+  <div id="carouselExampleCaptions" class="carousel slide dontShowOnmobile showOnTablet" data-bs-ride="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -100,19 +101,7 @@
           </h3>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col"> <img src="img/PLAN_1.png" alt="">
 
-          </div>
-          <div class="col"> <img src="img/PLAN_2.png" alt="">
-
-          </div>
-          <div class="col">
-            <h3>el mejor plan para vos</h3>
-          </div>
-        </div>
-      </div>
 
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -124,29 +113,93 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+  <!-- imagen principal mobile -->
+  <div class="dontShowOnTablet">
+  <img src="img/portada.jpg" class='img-fluid w-100' alt="instagram">
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col d-flex justify-content-center"> <img src="img/PLAN_1.png" class="planPrices" alt="precio">
+
+      </div>
+      <div class="col d-flex justify-content-center"> <img src="img/PLAN_2.png" class="planPrices" alt="precio plan">
+
+      </div>
+      <div class="text-center">
+        <h3>El mejor plan para vos</h3>
+      </div>
+    </div>
+  </div>
   <footer class="bg-dark text-light text-center">
-    <!-- logo -->
-    <img src="./img/LOGO-GYM_BLANCO.png" class="img-fluid" alt="logo" style="max-width: 10em">
 
-    <!-- texto  -->
-    <p>Seguinos en las redes!!</p>
-    <!-- iconos -->
-    <div class="d-flex justify-content-center">
-      <!-- instagram -->
+    <form class="form-group pt-5">
 
-      <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
-        class="d-flex justify-content-center align-items-center m-2">
-        <img src="img/icono_instagram.png" class='img-fluid' alt="instagram">
-      </a>
-      <!-- facebook -->
-      <a href="#" target="_blank" class="d-flex justify-content-center align-items-center m-2">
-        <img src="img/icono_facebook.png" class='img-fluid' alt="facebook">
+      <div class="text-left ">
+        <h4 htmlFor="Email">Suscribite a nuestro newsletter!!</h4>
+        <div class=" m-2">
+          <input name="Email" type="email" class="form-control-md mr-2 p-2" placeholder="Escribe tu email" required />
+          <button class="btn btn-secondary p-2">Suscribirme!</button>
+        </div>
+      </div>
 
-      </a>
-      <!-- twitter -->
-      <a href="#" target="_blank" class="d-flex justify-content-center align-items-center m-2">
-        <img src="img/icono_twiter.png" class='img-fluid' alt="twiter">
-      </a>
+    </form>
+
+    <div class="d-flex flex-wrap justify-content-around pb-4">
+
+      <!-- hyperlinks -->
+      <div class="text-start">
+        <div>
+          <a class="text-decoration-none  text-start text-light" href="./actividades.html">Actividades</a>
+        </div>
+        <div>
+          <a class="text-decoration-none  text-start text-light" href="./Quienes_somos.html">Nosotros</a>
+        </div>
+        <div>
+          <a class="text-decoration-none  text-start text-light" href="./contactanos.html">Contacto</a>
+        </div>
+        <div>
+          <a class="text-decoration-none  text-start text-light" href="./Galeria.html">Galeria</a>
+        </div>
+      </div>
+
+
+
+      <!-- iconos -->
+      <div class="">
+        <!-- instagram -->
+        <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
+          class="d-flex justify-content-center  text-decoration-none">
+          <div>
+            <img src="img/icono_instagram.png" class='img-fluid' width='24' alt="instagram">
+          </div>
+          <p class="text-light ms-1">
+            instagram
+          </p>
+        </a>
+        <!-- facebook -->
+        <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
+          class="d-flex justify-content-center  text-decoration-none">
+          <div>
+            <img src="img/icono_facebook.png" class='img-fluid' width='24' alt="facebook">
+          </div>
+          <p class="text-light ms-1">
+            facebook
+          </p>
+        </a>
+        <!-- twitter -->
+        <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
+          class="d-flex justify-content-center  text-decoration-none">
+          <div>
+            <img src="img/icono_twiter.png" class='img-fluid' width='24' alt="twitter">
+          </div>
+          <p class="text-light ms-1">
+            twitter
+          </p>
+        </a>
+      </div>
     </div>
 
     <!-- disclaimer -->
