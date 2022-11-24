@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 0;
 }
-.text-decoration-none{
-  text-decoration: none!important;
+.text-decoration-none {
+  text-decoration: none !important;
 }
 
 .conteiner-fluid-custom {
@@ -38,7 +38,7 @@ body {
   width: 100vw;
 }
 
-.planPrices{
+.planPrices {
   max-width: 90vw;
 }
 
@@ -64,8 +64,22 @@ body {
   margin-bottom: 1em;
 }
 
-.dontShowOnmobile{
+.dontShowOnmobile {
   display: none;
+}
+
+.centerOnMobile{
+justify-content: center!important;
+}
+/* contacto */
+.contactImage {
+  background-image: url("./../img/portada_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 2000px rgba(34, 44, 61, 0.637);
+  color: rgb(219, 212, 212);
+  height: 30vh;
 }
 
 /* pc view */
@@ -84,12 +98,11 @@ body {
 
 /* tablet view */
 @media (min-width: 801px) {
-
-  .showOnTablet{
+  .showOnTablet {
     display: block;
   }
 
-  .dontShowOnTablet{
+  .dontShowOnTablet {
     display: none;
   }
   .my-4-tablet {

@@ -67,125 +67,117 @@
         </div>
       </nav>
     </div>
-    <div id="contactanosFondo">
-      <div class="d-flex justify-content-center flex-wrap-reverse my-5">
-        <!--  Container of forms in contact us -->
-        <div id="contactUsForm" class="container">
-          <!--  titulo -->
-          <h2 class="text-center">Contáctanos!</h2>
 
-          <!--  Form inputs-->
-          <form method="POST" target="/new-entry" class="form-group">
-            <!--  Name -->
-            <div class="text-left mt-2">
-              <label htmlFor="title">Nombre y apellido*</label>
-              <input name="Nombre" type="text" class="form-control" autofocus placeholder="Escribe tu nombre y apellido"
-                required />
-            </div>
 
-            <!--  Email -->
-            <div class="text-left mt-2">
-              <label htmlFor="Email">E-mail*</label>
-              <input name="Email" type="email" class="form-control" autofocus placeholder="Escribe tu email" required />
-            </div>
 
-            <!--  Message -->
-            <div class="text-left mt-2">
-              <label htmlFor="Mensaje">Consulta | Mensaje</label>
-              <textarea name="Mensaje" class="form-control" rows="3" autofocus
-                placeholder="Pregúntanos algo!"></textarea>
-            </div>
-
-            <p class="text-secondary">
-              Todos los campos con (*) son obligatorios
-            </p>
-            <!-- botones -->
-            <div class="d-flex justify-content-end mt-2">
-              <!--  boton borrar  -->
-              <div>
-                <button class="btn btn-light ContactButton">Borrar</button>
-              </div>
-              <!--  boton enviar -->
-              <div>
-                <button class="btn btn-dark ContactButton ms-2">
-                  Enviar tu consulta
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
+    <!-- Main image -->
+    <div class="contactImage d-flex align-items-center justify-content-center ">
+      <h4 class="text-center">Contactanos</h4>
     </div>
+
+    <div class="d-flex justify-content-around flex-wrap mt-5 mb-4 centerOnMobile">
+
+      <!-- Map -->
+      <div class="card dontShowOnmobile ">
+        <iframe class="map" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52990.39194257439!2d-60.78207951906688!3d-32.90147797007806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b652ea3d7cf74b%3A0x908de900412efa00!2sEstaci%C3%B3n%20Club%20Fisherton!5e0!3m2!1sen!2sar!4v1669331465401!5m2!1sen!2sar"
+          width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <!-- contact inputs -->
+      <div class="wrapper centered mt-3">
+        <article>
+          <div class="d-flex justify-content-start">
+          </div>
+          <div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Escribe tu nombre">
+              </p>
+              <p>
+                <input type="email" class="form-control" placeholder="Escribe tu email">
+              </p>
+              <div>
+                <textarea class="form-control" rows="8" cols="8" placeholder="Escríbenos un mensaje! "></textarea>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button class="btn btn-dark mt-3 " id="sendLetter">Enviar</button>
+              </div>
+            </div>
+        </article>
+      </div>
+
+
+    </div>
+
     <footer class="bg-dark text-light text-center">
 
       <form class="form-group pt-5">
-  
+
         <div class="text-left ">
           <h4 htmlFor="Email">Suscribite a nuestro newsletter!!</h4>
           <div class=" m-2">
-            <input name="Email" type="email" class="form-control-md mr-2 p-2"placeholder="Escribe tu email"
-              required />
+            <input name="Email" type="email" class="form-control-md mr-2 p-2" placeholder="Escribe tu email" required />
             <button class="btn btn-secondary p-2">Suscribirme!</button>
           </div>
         </div>
-  
+
       </form>
-  
-  <div class="d-flex flex-wrap justify-content-around pb-4">
-  
-    <!-- hyperlinks -->
-    <div class="text-start">
-      <div>
-        <a class="text-decoration-none  text-start text-light" href="./actividades.html">Actividades</a>
-      </div>
-      <div>
-        <a class="text-decoration-none  text-start text-light" href="./Quienes_somos.html">Nosotros</a>
-      </div>
-      <div>
-        <a class="text-decoration-none  text-start text-light" href="./contactanos.html">Contacto</a>
-      </div>
-      <div>
-        <a class="text-decoration-none  text-start text-light" href="./Galeria.html">Galeria</a>
-      </div>
-      </div>
-  
-  
-  
-      <!-- iconos -->
-      <div class="">
-        <!-- instagram -->
-        <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
-          class="d-flex justify-content-center  text-decoration-none">
+
+      <div class="d-flex flex-wrap justify-content-around pb-4">
+
+        <!-- hyperlinks -->
+        <div class="text-start">
           <div>
-            <img src="img/icono_instagram.png" class='img-fluid' width='24' alt="instagram">
+            <a class="text-decoration-none  text-start text-light" href="./actividades.html">Actividades</a>
           </div>
-          <p class="text-light ms-1">
-            instagram
-          </p>
-        </a>
-        <!-- facebook -->
-        <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
-          class="d-flex justify-content-center  text-decoration-none">
           <div>
-            <img src="img/icono_facebook.png" class='img-fluid' width='24' alt="facebook">
+            <a class="text-decoration-none  text-start text-light" href="./Quienes_somos.html">Nosotros</a>
           </div>
-          <p class="text-light ms-1">
-            facebook
-          </p>
-        </a>
-        <!-- twitter -->
-        <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
-          class="d-flex justify-content-center  text-decoration-none">
           <div>
-            <img src="img/icono_twiter.png" class='img-fluid' width='24' alt="twitter">
+            <a class="text-decoration-none  text-start text-light" href="./contactanos.html">Contacto</a>
           </div>
-          <p class="text-light ms-1">
-            twitter
-          </p>
-        </a>
+          <div>
+            <a class="text-decoration-none  text-start text-light" href="./Galeria.html">Galeria</a>
+          </div>
+        </div>
+
+
+
+        <!-- iconos -->
+        <div class="">
+          <!-- instagram -->
+          <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
+            class="d-flex justify-content-center  text-decoration-none">
+            <div>
+              <img src="img/icono_instagram.png" class='img-fluid' width='24' alt="instagram">
+            </div>
+            <p class="text-light ms-1">
+              instagram
+            </p>
+          </a>
+          <!-- facebook -->
+          <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
+            class="d-flex justify-content-center  text-decoration-none">
+            <div>
+              <img src="img/icono_facebook.png" class='img-fluid' width='24' alt="facebook">
+            </div>
+            <p class="text-light ms-1">
+              facebook
+            </p>
+          </a>
+          <!-- twitter -->
+          <a href="https://www.instagram.com/universal_gym_funes/?next=%2F" target="_blank"
+            class="d-flex justify-content-center  text-decoration-none">
+            <div>
+              <img src="img/icono_twiter.png" class='img-fluid' width='24' alt="twitter">
+            </div>
+            <p class="text-light ms-1">
+              twitter
+            </p>
+          </a>
+        </div>
       </div>
-    </div>
-  
+
       <!-- disclaimer -->
       <p class="m-0 pb-4">
         Copyright (c) 2022 Power of love. Autor de este documento: Prati
