@@ -69,7 +69,7 @@ body {
 }
 
 .centerOnMobile{
-justify-content: center!important;
+justify-content: center;
 }
 /* contacto */
 .contactImage {
@@ -81,7 +81,9 @@ justify-content: center!important;
   color: rgb(219, 212, 212);
   height: 30vh;
 }
-
+.Formulariocontacto{
+  width: 90vw;
+}
 /* pc view */
 @media (min-width: 1025px) {
   .tamañoBanner {
@@ -113,5 +115,9 @@ justify-content: center!important;
   .my-5-tablet {
     margin-top: 5em;
     margin-bottom: 5em;
+  }
+
+  .Formulariocontacto{
+    width: 40vw;
   }
 }
